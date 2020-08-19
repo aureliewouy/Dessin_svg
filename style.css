@@ -1,0 +1,61 @@
+form{
+  line-height: 2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+h1{
+color: #f76e5d;
+
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+ .figure{
+     border: 2px dashed #f76e5d;
+     width: 400px;
+     height: 400px;
+     background-color: white;
+ }
+body{
+
+  background-image: url("pink.jpg");
+}
+.lienFigure a{
+ text-decoration: none;
+ padding: 2%;
+ margin: 2%;
+ text-align: center;
+ color: #f76e5d;
+ background-color: white;
+ border: 1px solid #f76e5d;
+  text-align: center;
+}
+.lienFigure{
+  display: flex;
+  justify-content: center;
+}
+div a {
+
+  color: white;
+}
+.white{
+  margin: 2%;
+  background-color: white;
+  opacity: 0.6;
+  padding: 1%;
+  text-align: center;
+  box-shadow: 5px 10px 8px #888888;
+}
+.figure{
+  margin: auto;
+}
+#retour{
+ float: right;
+vertical-align: top;
+margin-right: 3%;
+}

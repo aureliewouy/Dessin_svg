@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+    <div class="white">
+
+
+    <h1>Dessiner des figures !</h1>
+    <p>Ici j'ai utilisé la POO en php afin de dessiner des formes géométrique en SVG</p>
+    <p>Pour créer ta forme géométrique tu dois saisir toutes les informations : </p>
+    <p>L'opacité varie entre 0 et 1</p>
+    <p>La forme du cadrant est de 400px maximum en largeur et en longueur donc si tu mets un chiffre supérieur ta figure risque de d'être coupée</p>
+    <p>Les deux champs coordonnée represente l'abscisse X et l'ordonnée Y</p>
+    <p>A toi de jouer !</p>
+    </div>
+    <form id="formulaire" action="index.php" method="post">
+      <label>Forme</label>
+        <select id="forme" name="forme">
+          <option value="" selected disabled></option>
+          <option value="rectangle">Rectangle</option>
+          <option value="cercle">Cercle</option>
+          <!--<option value="triangle">Triangle</option>-->
+        </select>
+      <br>
+      <label>Couleur</label>
+        <select  name="couleur">
+          <option value="#808000">Olive</option>
+          <option value="#ADD8E6">Light Blue</option>
+          <option value="#581845">Violet</option>
+          <option value="#fa8072">Saumon</option>
+          <option value="#FFC300">Jaune</option>
+          <option value="#DAF7A6">Vert</option>
+
+        </select>
+      <br>
+      <label>Opacité</label>
+        <input type="text" name="opacite" value="">
+      <br>
+      <label>Coordonée</label>
+        <input type="text" name="x">
+        <input type="text" name="y">
+      <br>
+      <input type="submit" name="" value="Dessiner">
+    </form>
+  </body>
+</html>
